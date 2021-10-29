@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/all.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Konvate</title>
+	</head>
+	<body>
+		<header id="menu-header">
+			<nav>
+				<button class= "hamburger" id= "hamburger">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="menu_bar" id="menu_bar">
+				<a class= "menuitem" class="nav-link" href= "index.html">Home</a>
+				<a class= "menuitem"  href= "about.html">Nosotros</a>
+				<a class= "menuitem"  href= "contact.html">Contáctenos</a>
+				</div>
+			</nav>
+			
+		
+		</header>
+		
+		<div class="wrapper">	
+			<div class="k-title">
+				KONVATE
+			</div>
+			<h3 class= "k-maintext">
+			Konvate es un juego de cartas coleccionables ambientado en un universo de fantasia.<br>
+			Decide tu destino al elegir una gran variedad de mazos : <br>
+			Conviertete en un caballero, un elfo,  o hasta en un nigromante!<br>
+			Enfrentate a la maquina o compite contra tus amigos en partidas de hasta cuatro jugadores!<br>
+			Crea tus propios mazos personalizados y pon a prueba tu capacidad creativa. <br>
+			 En Konvate, solo la imaginación es tu limite!<br>
+			</h3>
+			
+			<div class="deck-holder">
+			
+			<h2>Mazos Destacados</h2>
+			
+			<section class="deck-display" id= "1" style="background-image: url(img/carlos-amaral-elf-archer.jpg);" alt="Arquero" onclick="view_deck_details(this.id)">
+			<h1>Arquero</h1>
+			<h3> Destreza,agilidad, naturaleza.<br> Un mazo dedicado para los que tienen perfecta puntería!</h3>
+			</section>
+			
+			<section class="deck-display" id= "2" style="background-image: url(img/manuel-castanon-the-hopeful-knight-final.jpg);" alt="Caballero" onclick="view_deck_details(this.id)">
+			<h1>Caballero</h1>
+			<h3> Tradición y honor.<br> Combate a tus enemigos con este mazo caballeresco!</h3>
+			</section>
+			
+			<section class="deck-display"  id= "3" style="background-image: url(img/markus-neidel-ork-axe.jpg);" alt="Orco" onclick="view_deck_details(this.id)">
+			<h1>Orco</h1>
+			<h3> Furia y sangre.<br> No le des tiempo de pensar a tu contricante con este mazo agresivo! </h3>
+			</section>
+			
+			<br>
+			
+			<section class="deck-display" id="4" style="background-image: url(img/peter-ortiz-necro-final2.jpg);" alt="Nigromante" onclick="view_deck_details(this.id)">
+			<h1>Nigromante</h1>
+			<h3> Introducete en las artes oscuras con este mazo de brujas y esqueletos!</h3>
+			</section>
+			
+			<section class="deck-display" id="5" style="background-image: url(img/d9uwlmx-54dae3c5-90c3-4186-a674-b3aa8959aef7.jpg);" alt="Mago" onclick="view_deck_details(this.id)">
+			<h1>Mago</h1>
+			<h3> Controla el ritmo de la partida contrarrestando todo lo que tu oponente haga. Conviertete en un adepto a la arcana!</h3>
+			</section>
+			
+			<section class="deck-display" id="6" style="background-image: url(img/cole-eastburn-dwarfblacksmith.jpg);" alt="Enano" onclick="view_deck_details(this.id)">
+			<h1>Enano</h1>
+			<h3> Artesania y equipos.<br> Equipa a tus enanos con una gran variedad de armas y llevalos a la victoria!</h3>
+			</section>
+			</div>
+			
+			<div class="overlay">
+				<div class= "overlay_content">
+					<button onclick="close_details()" class="overlay_button" type="button">x</button>
+				
+					<div >
+						<table class="decktable">
+						<thead>
+						  <tr>
+							<th>Criaturas</th>
+							<th>Hechizos</th>
+							<th>Instantaneos</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> Criatura 1</td>
+							<td>Hechizo 1</td>
+							<td>Instantaneo 1</td>
+						  </tr>
+						  <tr>
+							<td> Criatura 2</td>
+							<td>Hechizo 2</td>
+							<td>Instantaneo 2</td>
+						  </tr>
+						  <tr>
+							<td>Criatura 3</td>
+							<td>Hechizo 3</td>
+							<td>Instantaneo 3</td>
+						  </tr>
+						</tbody>
+						</table>
+					</div>
+				
+				
+				</div>
+			</div>
+			
+			<footer id="footer">
+				<button onclick="top_function()" class="anchor-top" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
+				<div class= "copyright">KONVATE © 2021 All rights reserved. </div> 
+				<div class= "copyright">B# ©2021 All rights reserved. </div>
+			<div class= "logos">
+				<a href= "https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+				<a href= "https://twitter.com/"><i class="fab fa-twitter"></i></a>
+				<a href= "https://www.facebook.com/"><i class="fab fa-facebook" ></i></a>	
+			</div>
+			</footer>
+		</div>
+	<script src="scripts/main-scripts.js"></script>
+	</body>
+
+</html>

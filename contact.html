@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Contáctenos</title>
+</head>
+<body>
+	<header id="menu-header">
+		<nav>
+			<button class= "hamburger" id= "hamburger">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="menu_bar" id="menu_bar">
+			<a class= "menuitem" class="nav-link" href= "index.html">Home</a>
+			<a class= "menuitem"  href= "about.html">Nosotros</a>
+			<a class= "menuitem"  href= "contact.html">Contáctenos</a>
+			</div>
+		</nav>
+	</header>
+	<div class="wrapper">	
+	
+	<div class= "Contact-body">
+		
+		<div class="form-container">
+			
+			<div class="form-body">
+					<div class="form-block small fullscreen">
+						Envíanos tu consulta, <br>
+						nos pondremos en contacto a la brevedad <br>
+					</div>
+					
+					<div class="form-block small responsive">
+						Envíanos tu consulta, 
+						nos pondremos en contacto a la brevedad 
+					</div>
+
+				
+					<div class="form-block big">
+						<form name="contact_form" id="form"  class="contact-form">
+							<label class= "f-left">(*) Campos obligatorios</label><br><br>
+							<input class="name_input" type="text" id="formName" name="formName" placeholder="Nombre*" required=""  maxlength="20"><br>
+							<input class= "email_input" type="email" id="formEmail" name="email" placeholder="Correo Electrónico*" required="" maxlength="25"><br>
+							<input class="phone_input" type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" id="formPhone" name="phone" title="Formato aceptado: 011-XXXX-XXXX" placeholder="Teléfono" maxlength="12"><br>
+							<textarea class= "comment_input" rows="4" cols="40" id="formComment" name="message" placeholder="Comentario*" required="" maxlength="250"></textarea><br>
+							<button type="submit" id="submit" name="submit" >ENVIAR</button>
+							
+						</form>
+					</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<button onclick="top_function()" class="anchor-top" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
+		<div class= "copyright">KONVATE © 2021 All rights reserved. </div> 
+		<div class= "copyright">B# ©2021 All rights reserved. </div>
+	<div class= "logos">
+		<a href= "https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+		<a href= "https://twitter.com/"><i class="fab fa-twitter"></i></a>
+		<a href= "https://www.facebook.com/"><i class="fab fa-facebook" ></i></a>
+		
+	</div>
+	</footer>
+</div>	
+<script src="scripts/main-scripts.js"></script>
+</body>
+</html>
