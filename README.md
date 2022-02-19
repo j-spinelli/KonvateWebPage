@@ -1,5 +1,5 @@
 # Konvate Web Page
- Mock Webpage made for the trading card game "KONVATE". This project was made as a Front End assignment for the "Codo a Codo 4.0" program.
+ Mockup Webpage made for the trading card game "KONVATE". This project was made as a Front End assignment for the "Codo a Codo 4.0" program.
  
  ##Authors and Acknowledgment
 - Spinelli, Julián
